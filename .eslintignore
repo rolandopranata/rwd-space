@@ -1,0 +1,4 @@
+# .eslintignore
+build
+.next
+node_modules
