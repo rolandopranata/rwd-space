@@ -1,8 +1,12 @@
 {
     "name": "rwd-space",
     "description": "My portfolio website",
+    "repository": "https://github.com/rolandopranata/rwd-space.git",
+    "author": "rolandowebdev <rolandopranata@gmail.com>",
     "version": "0.1.0",
     "private": true,
+    "main": "index.js",
+    "license": "MIT",
     "scripts": {
         "dev": "next dev",
         "build": "next build",
@@ -10,6 +14,10 @@
         "lint": "next lint"
     },
     "dependencies": {
+        "@chakra-ui/react": "^2.2.4",
+        "@emotion/react": "^11",
+        "@emotion/styled": "^11",
+        "framer-motion": "^6",
         "next": "12.2.2",
         "next-seo": "^5.5.0",
         "react": "18.2.0",
@@ -26,9 +34,5 @@
         "eslint-plugin-react": "^7.30.1",
         "eslint-plugin-react-hooks": "^4.6.0",
         "prettier": "^2.7.1"
-    },
-    "main": "index.js",
-    "repository": "https://github.com/rolandopranata/rwd-space.git",
-    "author": "rolandowebdev <rolandopranata@gmail.com>",
-    "license": "MIT"
+    }
 }
